@@ -6,7 +6,15 @@ form, input, div {
   margin: 0;
   padding: 0;
 }
-@media (max-width: 1000px) {
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media all and (max-width: 1000px) {
 .member {
   width:50%;
 }
@@ -14,8 +22,12 @@ img {
   width:100%;
 }
 }
-@media (max-width: 670px) {
-.member {
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .member {
   width:25%;
 }
 img {
