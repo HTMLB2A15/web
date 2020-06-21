@@ -6,3 +6,19 @@ form, input, div {
   margin: 0;
   padding: 0;
 }
+@media (max-width: 1000px) {
+.member {
+  width:50%;
+}
+img {
+  width:100%;
+}
+}
+@media (max-width: 670px) {
+.member {
+  width:25%;
+}
+img {
+  width:100%;
+}
+}
