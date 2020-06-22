@@ -7,8 +7,9 @@
     <title>
         PORTOFOLIO A15
     </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/stylesheet.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,31 +17,41 @@
         <div class="container">
             <div class="header-left">
                 <!--masukin gambar logo-->
-                <img src="#">
+                <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
             </div>
             <span class="fa fa-bars menu-icon"></span>
+			<div class="header-right">
+				<a href="#member">Members</a>
+				<a href="#contact">Contact</a>
+			</div>
         </div>
     </header>
     <div class="top-wrapper">
         <div class="container">
+            <h3>Portfolio Tim A15</h3>
             <h1>WEB SEDERHANA</h1>
-            <h3>PORTOFOLIO TIM A15</h3>
             <p>Web portofolio ini adalah web sederhana sebagai tugas projek pertama dari Tim A15.</p>
+            <div class="home-arrow-down">
+                <a href="#member" class="smoth-scroll btn"><i class="fa fa-angle-double-down"></i></a>
+            </div>
         </div>
     </div>
     <div class="content-wrapper">
+		<div class="heading" id="member">
+           <h1>MEMBERS<span>.</span></h1>
+        </div>
         <div class="container">
             <div class="member-list">
                 <div class="member">
                     <img src="images/aziz.JPG" alt="">
                     <div class="member-detail">
                         <!--silahkan masukan informasi diri masing-masing-->
-                        <p>"ganti dengan nama"</p>
-                        <p>TIM A15</p>
+                        <h2>Abdul Aziz</h2>
+			            <h3>ID#0447977111-4</h3>
                         <div class="sosmed">
                             <span class="fa fa-instagram">
                                 <!--ganti dengan ling instagram-->
-                                <a href="#"></a>
+                                <a href="https://www.instagram.com/al_aziz_zakaria/">@al_aziz_zakaria</a>
                             </span>
                         </div>
                     </div>
@@ -49,8 +60,8 @@
                     <img src="images/aji.jpg" alt="">
                     <div class="member-detail">
                         <!--silahkan masukan informasi diri masing-masing-->
-                        <p>Aji Nurcahyo Hidayat</p>
-                        <p>TIM A15</p>
+                        <h2>Aji Nurcahyo Hidayat</h2>
+			            <h3>ID#</h3>
                         <div class="sosmed">
                             <span class="fa fa-instagram">
                                 <!--ganti dengan ling instagram-->
@@ -63,12 +74,12 @@
                     <img src="images/wira-progate.jpg" alt="">
                     <div class="member-detail">
                         <!--silahkan masukan informasi diri masing-masing-->
-                        <p>"Adhitya Wira Witantra"</p>
-                        <p>TIM A15</p>
+                        <h2>Adhitya Wira Witantra</h2>
+			            <h3>ID#</h3>
                         <div class="sosmed">
                             <span class="fa fa-instagram">
                                 <!--ganti dengan ling instagram-->
-                                <a href="https://www.instagram.com/adhitya.witantra/"></a>
+                                <a href="https://www.instagram.com/adhitya.witantra/">@adhitya.witantra</a>
                             </span>
                         </div>
                     </div>
@@ -77,8 +88,8 @@
                     <img src="#" alt="">
                     <div class="member-detail">
                         <!--silahkan masukan informasi diri masing-masing-->
-                        <p>"ganti dengan nama"</p>
-                        <p>TIM A15</p>
+                        <h2>ganti dengan nama</h2>
+			            <h3>ID#</h3>
                         <div class="sosmed">
                             <span class="fa fa-instagram">
                                 <!--ganti dengan ling instagram-->
@@ -87,14 +98,37 @@
                         </div>
                     </div>
                 </div>
+                <div class="clear"></div>
             </div>
         </div>
     </div>
-    <footer>
+    <div class="contact-wrapper">
         <div class="container">
-            <!--masukin gambar logo untuk footer-->
-            <img src="#" alt="">
+            <div class="heading" id="contact">
+                <h1>CONTACT<span>.</span></h1>
+            </div>
+            <div class="contact-form">
+                <p>Email (Wajib Diisi)</p>
+                <!-- Tambahkan tag <input> -->
+                <input>
+                
+                <p>Pesan (Wajib Diisi)</p>
+                <!-- Tambahkan tag <textarea> --> 
+                <textarea></textarea>
+                
+                <p>*Bidang Wajib Diisi</p>
+                <!-- Tambahkan tag <input> -->
+                <input class="contact-submit" type="submit" value="Kirim" />
+                
+            </div>
         </div>
+      </div>
+    <footer>
+      <div class="container">
+        <!--masukin gambar logo untuk footer-->
+        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+        <p>Copyright Tim A15. All-Right Reserved.</p>
+      </div>
     </footer>
 </body>
 
