@@ -41,6 +41,15 @@
     .member {
         width: 100%;
     }
+
+    .contact-form {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .contact-submit {
+        width: 100% !important;
+    }
     
     footer {
         text-align: center;
