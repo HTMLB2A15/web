@@ -1,0 +1,36 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media all and (max-width: 1000px) {
+.member {
+  width:50%;
+}
+img {
+  width:100%;
+}
+}
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .member {
+  width:25%;
+}
+img {
+  width:100%;
+}
+}
