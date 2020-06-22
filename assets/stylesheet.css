@@ -75,7 +75,7 @@ a {
 .home-arrow-down {
     text-align: center;
     position: absolute;
-    bottom: -250px;
+    bottom: 150px;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -214,7 +214,7 @@ input, textarea  {
 	border-bottom-width: 0px;
     width: 100%;
     height: 45px;
-    padding: 5px 0px;
+	padding: 5px 0px;
     font-size: 16px;
     line-height: 1.42857143;
     color: #333;
@@ -226,9 +226,33 @@ input, textarea  {
     margin-bottom: 25px;
 }
 
+textarea {
+    height: auto;
+}
+
+.contact-form {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.contact-wrapper .contact-form {
+	text-align: left;
+}
+
 .contact-submit {
-	background-color: #dee7ec;
-	color: #889eab;
+    display: inline-block;
+    color: #000;
+    background: none;
+    padding: 10px 10px;
+    border: 1px solid #FFD504;
+    font-size: 14px;
+    border-radius: 0px;
+    font-weight: 700;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: #FFD504;
+    text-transform: capitalize;
+	width: 20% !important;
 }
 
 footer img {
